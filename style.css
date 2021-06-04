@@ -1,0 +1,220 @@
+/* ................nav et body............. */
+body{
+    background-color: aqua;
+}
+nav{
+    background-color: aqua;
+    background-size: cover;
+    width: 100%;
+    height:6em;
+    margin: -16px 0 0 -7px;
+    box-shadow: 1px 1px 1px 1px;
+    opacity:0.9;
+    position: fixed;
+}
+#lien{
+    margin: 0 0 0 -5px;
+    background-color: aqua;
+    float: left;
+}
+#liens:hover{
+    color: blue;
+}
+#liens{
+    color: rgb(8, 8, 14);
+    font-family:sans-serif;
+    margin: 20px 0 0 -20px;
+    background-color: aqua;
+    font-size:2em;
+    
+}
+ol li{
+    display:flex;
+    flex-wrap:wrap;
+    list-style: none;
+    float: right;
+    background-color: rgba(117, 117, 199, 0.623);
+    padding:3px;
+    border-radius: 6px;
+    margin:24px;
+    font-size:1.3em;
+}
+ol li:hover {
+    background-color: black;
+    color: cornsilk;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+a{
+    text-decoration: none;
+    color:white;
+    font-size: larger;
+}
+
+/* .................image principal.............. */
+#imageprincipal{
+    background: url(background/Screenshot_20210602-113151_Gallery.jpg) no-repeat fixed 50% 50%;
+    height:30em;
+    background-size: cover;
+    width:100%;
+    margin: 1px 0 0 -8px;
+    padding:8px;
+}
+div h1{
+    text-align: center;
+    color: rgb(250, 7, 7);
+    margin:-320px 0 0 20px;
+    font-weight: bold;
+}
+
+
+/* ...............footer........... */
+footer{
+    background-color: black;
+    width: 100%;
+    background-size: cover;
+    position:absolute;
+    margin: 800px 0 0 -8px;
+    height:40em;
+    
+}
+#nousContacter{
+    color: blanchedalmond;
+    margin: 9px 0px 0 180px;
+    font-size:1.6em;
+}
+/* ....................formulaire.................. */
+form{
+    display:grid;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-left:1px;
+    height:25em;
+    background-color: black;
+    margin: 300px 0 0 0px;
+}
+input{
+    height: 1.7em;
+    width: 25%;
+    display:flex;
+    flex-wrap:wrap;
+    margin: 20px 0 0 84px;
+}
+.prenom{
+    margin: -50px 0px 0 500px;
+    height:1.7em;
+}
+textarea{
+    width: 25%;
+    height: 10em;
+    margin: 0px 0 0 84px;
+}
+#hom{
+    width: 2%;
+    margin: -100px 0 0 500px;
+}
+#hom:hover{
+    color: rgb(74, 10, 248);
+    background-color: rgb(211, 15, 162);
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+#fem{
+    width: 2%;
+    margin: -150px 0 0 500px;
+}
+#fem:hover{
+    color: rgb(74, 10, 248);
+    background-color: rgb(211, 15, 162);
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+#femme{
+    width: 2%;
+    margin: -150px 0 0 530px;
+    color: blanchedalmond;
+}
+#homme{
+    width: 2%;
+    margin: -100px 0 0 530px;
+    color: blanchedalmond;
+}
+form h4{
+    width: 2%;
+    margin: -140px 0 0 500px;
+    color: blanchedalmond;
+}
+#send{
+    width: 10%;
+    margin: -90px 0 0 500px;
+    height:2em;
+    color: rgb(12, 9, 5);
+}
+#send:hover{
+    color: rgb(2, 242, 250);
+    background-color: rgb(5, 3, 8);
+}
+#reset{
+    width:10%;
+    height: 2em;
+    margin: -50px 0 0 500px;
+    color: rgb(12, 9, 5);
+}
+#reset:hover{
+    color: rgb(2, 242, 250);
+    background-color: rgb(5, 3, 8);
+}
+#copy{
+    color: blanchedalmond;
+    margin: 0px 9px 0 0px;
+    float: right;
+    font-size: 1.4em;
+}
+#design{
+    color: blanchedalmond;
+    margin: -32px -150px 0 0px;
+    float: right;
+    font-size: 1.4em;
+}
+dl{ color: blanchedalmond;
+    margin: 19px 0 0 10px;
+    font-size: 1.4em;
+}
+#phone{
+    color: blanchedalmond;
+    margin: 12px 0 0 9px;
+    font-size: 1.4em;
+}
+#mail{
+    color: blanchedalmond;
+    margin:10px 0 0 320px;
+    font-size:1.4em;
+}
+#ligne1{
+    color: aqua;
+    margin: 50px 0 0 0;
+}
+
+/* ..............apropos de moi............. */
+#bio{
+    background: url(background/IMG_6273.jpg);
+    width: 50%;
+    height: 27em;
+    float: left;
+    background-size: cover;
+    border-radius: 300px;
+    margin: 120px 0px -2px 240px;
+}
+#bio p{
+    text-align: justify;
+    text-align: center;
+    margin:460px 0 0 0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+#icons{
+    color: blanchedalmond;
+    margin:20px 0 0 40px;
+    font-size:1.4em;
+}
+
